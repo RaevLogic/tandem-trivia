@@ -37,7 +37,7 @@ const trivia = require('./assets/questions.json')
 
 let formattedTrivia = formatQuestions(trivia)
 let finalTrivia = tenQuestions(formattedTrivia)
-console.log(finalTrivia)
+
 
 export default {
   name: 'App',
